@@ -2,7 +2,7 @@
   "name": "real-time-chat-application",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "nodemon server"
   },
