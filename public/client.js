@@ -1,4 +1,4 @@
-const socket=io();
+const socket=io('/',{transports: ['websocket'],upgrade:false});
 let name;
 do{
     name = prompt("Enter your name: ");
